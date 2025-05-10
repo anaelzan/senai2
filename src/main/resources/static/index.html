@@ -1,10 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Alunos e Professores</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-$END$
+<div class="container">
+    <!-- Tabela de Alunos -->
+    <section class="tabela">
+        <h1>Alunos Cadastrados</h1>
+        <table>
+            <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Telefone</th>
+            </tr>
+            </thead>
+            <tbody id="aluno-tbody">
+            <!-- Os dados dos alunos vão aparecer aqui -->
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Tabela de Professores -->
+    <section class="tabela">
+        <h1>Professores Cadastrados</h1>
+        <table>
+            <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Telefone</th>
+            </tr>
+            </thead>
+            <tbody id="professor-tbody">
+            <!-- Os dados dos professores vão aparecer aqui -->
+            </tbody>
+        </table>
+    </section>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
